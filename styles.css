@@ -1,0 +1,41 @@
+body{
+    background-image: url(/laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    font-family: sans-serif;
+}
+#headerContainer{
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+.header {
+    text-align: center;
+    position: fixed;
+    width: 65%;
+    height: auto; 
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+
+/* round off the edges */ 
+    -webkit-border-radius: 70px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius: 70px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-radius: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.content{
+    height: auto;
+    padding-top: 150px;
+}
+    
+.content p{
+    color: #fff;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-size: 1.2em;
+    text-align: center;
+}
